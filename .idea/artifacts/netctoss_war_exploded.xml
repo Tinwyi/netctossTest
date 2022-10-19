@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="netctoss:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/netctoss_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="netctoss/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="netctoss" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/standard-1.1.2.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/mysql-connector-java-8.0.29.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jackson-core-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jackson-databind-2.2.3.jar" />
+          <element id="file-copy" path="$PROJECT_DIR$/web/lib/jackson-annotations-2.2.3.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
